@@ -36,12 +36,12 @@ def generate_report():
 def pdf_response(report, filename):
 	resp = Response(ReportTemplate(report).reportBytes())
 	resp.headers['Content-Disposition'] = "inline; filename={}".format(filename)
-	resp.headers["Content-Type"] = "text/xml; charset=utf-8"
+	resp.headers["Content-Type"] = "application/pdf; charset=utf-8"
 	return resp
 
 def xml_response(report):
     resp = Response(dicttoxml(report))
-    resp.mimetype = 'application/xml'
+    resp.mimetype = 'text/xml'
     return resp
 
 def get_int(str_of_int):
