@@ -6,11 +6,11 @@ To run the project pelase set up a virtual enviroment. Make sure that you have p
 
 First lets create one:
 ```bash
-python3 -m venv Suade
+python3 -m venv Env
 ```
 Don't forget to activate it:
 ```bash
-source Suade/bin/activate
+source Env/bin/activate
 ```
 Then install all of the required packages:
 ```bash
