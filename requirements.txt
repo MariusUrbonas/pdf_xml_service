@@ -4,7 +4,7 @@ chardet==3.0.4
 Click==7.0
 dict2xml==1.5
 dicttoxml==1.7.4
-Flask==1.0.2
+Flask==2.2.5
 Flask-SQLAlchemy==2.3.2
 idna==2.8
 inflect==2.1.0
